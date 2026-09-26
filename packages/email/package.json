@@ -12,7 +12,7 @@
     "index.ts"
   ],
   "scripts": {
-    "dev": "react-router dev --config preview/vite.config.ts",
+    "dev": "node init && react-router dev --config preview/vite.config.ts",
     "preview:build": "react-router build --config preview/vite.config.ts",
     "clean": "rimraf node_modules"
   },
